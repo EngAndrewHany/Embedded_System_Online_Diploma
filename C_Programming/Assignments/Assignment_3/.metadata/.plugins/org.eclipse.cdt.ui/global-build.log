@@ -1,0 +1,3415 @@
+14:30:28 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:22:20: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter a%d%d:" ,a[i+1][x+1]);
+                    ^
+..\main.c:22:22: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+    printf("Enter a%d%d:" ,a[i+1][x+1]);
+                      ^
+..\main.c:24:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+    scanf("%f \n",a[i][x]);
+            ^
+..\main.c:13:8: warning: unused variable 'b' [-Wunused-variable]
+  float b [2][2];
+        ^
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:31:03 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:24:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+    scanf("%f \n",a[i][x]);
+            ^
+..\main.c:13:8: warning: unused variable 'b' [-Wunused-variable]
+  float b [2][2];
+        ^
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:31:45 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:24:13: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'double' [-Wformat=]
+    scanf("%lf \n",a[i][x]);
+             ^
+..\main.c:13:8: warning: unused variable 'b' [-Wunused-variable]
+  float b [2][2];
+        ^
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:31:47 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:32:06 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:35:50 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:35:52 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:35:53 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:35:54 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:35:55 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:35:56 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:40:26 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:24:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+    scanf("%f \n",a[i][x]);
+            ^
+..\main.c:13:8: warning: unused variable 'b' [-Wunused-variable]
+  float b [2][2];
+        ^
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:42:44 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:13:8: warning: unused variable 'b' [-Wunused-variable]
+  float b [2][2];
+        ^
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:43:18 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:44:06 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:44:09 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:45:43 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:47:38 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:47:40 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:53:06 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:53:07 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:53:08 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:53:08 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:53:10 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:53:26 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:53:42 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:09:47 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:11:23 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:12:50 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex1.exe main.o 
+14:19:00 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:17:7: error: expected expression before ')' token
+  for ()
+       ^
+..\main.c:17:7: error: expected expression before ')' token
+..\main.c:14:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,r,c;
+      ^
+..\main.c:13:8: warning: unused variable 'b' [-Wunused-variable]
+  float b [2][2];
+        ^
+14:19:39 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:13:8: warning: unused variable 'b' [-Wunused-variable]
+  float b [2][2];
+        ^
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:35:43 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:13:8: warning: unused variable 'b' [-Wunused-variable]
+  float b [2][2];
+        ^
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:35:47 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:35:56 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+14:36:18 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:13:8: warning: unused variable 'b' [-Wunused-variable]
+  float b [2][2];
+        ^
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:37:48 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:13:8: warning: unused variable 'b' [-Wunused-variable]
+  float b [2][2];
+        ^
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:37:50 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:37:55 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+14:43:33 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:50:48 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:58:21: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+     printf("s%d%d: %f \n",i,r+1,c+1,a [r][c]+b[r] [c]);
+                     ^
+..\main.c:58:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("s%d%d: %f \n",i,r+1,c+1,a [r][c]+b[r] [c]);
+            ^~~~~~~~~~~~~~
+..\main.c:14:8: warning: unused variable 's' [-Wunused-variable]
+  float s [2][2];
+        ^
+gcc -o ex1.exe main.o 
+14:51:21 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:58:21: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+     printf("s%d%d: %f \n",i,r+1,c+1,a [r][c]+b[r] [c]);
+                     ^
+..\main.c:58:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("s%d%d: %f \n",i,r+1,c+1,a [r][c]+b[r] [c]);
+            ^~~~~~~~~~~~~~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+14:56:35 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:56:48 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+14:59:21 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:29:12: warning: zero width in ms_scanf format [-Wformat=]
+      scanf("%0.2f", &a[r][c]);
+            ^~~~~~~
+..\main.c:29:15: warning: unknown conversion type character '.' in format [-Wformat=]
+      scanf("%0.2f", &a[r][c]);
+               ^
+..\main.c:29:12: warning: too many arguments for format [-Wformat-extra-args]
+      scanf("%0.2f", &a[r][c]);
+            ^~~~~~~
+..\main.c:31:12: warning: zero width in ms_scanf format [-Wformat=]
+      scanf("%0.2f", &b[r][c]);
+            ^~~~~~~
+..\main.c:31:15: warning: unknown conversion type character '.' in format [-Wformat=]
+      scanf("%0.2f", &b[r][c]);
+               ^
+..\main.c:31:12: warning: too many arguments for format [-Wformat-extra-args]
+      scanf("%0.2f", &b[r][c]);
+            ^~~~~~~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:00:08 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:29:12: warning: zero width in ms_scanf format [-Wformat=]
+      scanf("%0.2f", &a[r][c]);
+            ^~~~~~~
+..\main.c:29:15: warning: unknown conversion type character '.' in format [-Wformat=]
+      scanf("%0.2f", &a[r][c]);
+               ^
+..\main.c:29:12: warning: too many arguments for format [-Wformat-extra-args]
+      scanf("%0.2f", &a[r][c]);
+            ^~~~~~~
+..\main.c:31:12: warning: zero width in ms_scanf format [-Wformat=]
+      scanf("%0.2f", &b[r][c]);
+            ^~~~~~~
+..\main.c:31:15: warning: unknown conversion type character '.' in format [-Wformat=]
+      scanf("%0.2f", &b[r][c]);
+               ^
+..\main.c:31:12: warning: too many arguments for format [-Wformat-extra-args]
+      scanf("%0.2f", &b[r][c]);
+            ^~~~~~~
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:00:10 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:00:14 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:01:02 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:29:12: warning: zero width in ms_scanf format [-Wformat=]
+      scanf("%0.2f", &a[r][c]);
+            ^~~~~~~
+..\main.c:29:15: warning: unknown conversion type character '.' in format [-Wformat=]
+      scanf("%0.2f", &a[r][c]);
+               ^
+..\main.c:29:12: warning: too many arguments for format [-Wformat-extra-args]
+      scanf("%0.2f", &a[r][c]);
+            ^~~~~~~
+..\main.c:31:12: warning: zero width in ms_scanf format [-Wformat=]
+      scanf("%0.2f", &b[r][c]);
+            ^~~~~~~
+..\main.c:31:15: warning: unknown conversion type character '.' in format [-Wformat=]
+      scanf("%0.2f", &b[r][c]);
+               ^
+..\main.c:31:12: warning: too many arguments for format [-Wformat-extra-args]
+      scanf("%0.2f", &b[r][c]);
+            ^~~~~~~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:01:23 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:02:01 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:29:14: warning: unknown conversion type character '.' in format [-Wformat=]
+      scanf("%.2f", &a[r][c]);
+              ^
+..\main.c:29:12: warning: too many arguments for format [-Wformat-extra-args]
+      scanf("%.2f", &a[r][c]);
+            ^~~~~~
+..\main.c:31:14: warning: unknown conversion type character '.' in format [-Wformat=]
+      scanf("%.2f", &b[r][c]);
+              ^
+..\main.c:31:12: warning: too many arguments for format [-Wformat-extra-args]
+      scanf("%.2f", &b[r][c]);
+            ^~~~~~
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:02:11 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:02:38 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:08:10 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+15:09:00 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:29:14: warning: unknown conversion type character '.' in format [-Wformat=]
+      scanf("%.2f", &a[r][c]);
+              ^
+..\main.c:29:12: warning: too many arguments for format [-Wformat-extra-args]
+      scanf("%.2f", &a[r][c]);
+            ^~~~~~
+..\main.c:31:14: warning: unknown conversion type character '.' in format [-Wformat=]
+      scanf("%.2f", &b[r][c]);
+              ^
+..\main.c:31:12: warning: too many arguments for format [-Wformat-extra-args]
+      scanf("%.2f", &b[r][c]);
+            ^~~~~~
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:09:02 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:09:08 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+15:11:01 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+15:21:34 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:12:8: error: array size missing in 'a'
+  float a[],sum;
+        ^
+..\main.c:19:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   scanf ("%f",a [i]);
+            ^
+..\main.c:26:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("Average = ",sum/num);
+          ^~~~~~~~~~~~
+Info: Nothing to build for ex1
+15:24:01 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:12:8: error: array size missing in 'a'
+  float a[],sum;
+        ^
+..\main.c:19:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   scanf ("%f",a [i]);
+            ^
+..\main.c:23:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("Average = ",sum/num);
+          ^~~~~~~~~~~~
+Info: Nothing to build for ex1
+15:24:03 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:12:8: error: array size missing in 'a'
+  float a[],sum;
+        ^
+..\main.c:19:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   scanf ("%f",a [i]);
+            ^
+..\main.c:23:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("Average = ",sum/num);
+          ^~~~~~~~~~~~
+Info: Nothing to build for ex1
+15:24:36 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:19:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   scanf ("%f",a [i]);
+            ^
+..\main.c:23:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("Average = ",sum/num);
+          ^~~~~~~~~~~~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+15:25:12 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:19:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   scanf ("%f",a[i]);
+            ^
+..\main.c:23:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("Average = ",sum/num);
+          ^~~~~~~~~~~~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex1
+15:25:45 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:19:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   scanf ("%f",a[i]);
+            ^
+..\main.c:23:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("Average = ",sum/num);
+          ^~~~~~~~~~~~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex1
+15:25:59 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:19:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   scanf ("%f",a[i]);
+            ^
+..\main.c:23:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("Average = ",sum/num);
+          ^~~~~~~~~~~~
+..\main.c:24:8: warning: 'return' with a value, in function returning void
+ return 0;
+        ^
+..\main.c:9:6: note: declared here
+ void main ()
+      ^~~~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+15:26:45 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:19:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   scanf ("%f",a[i]);
+            ^
+..\main.c:23:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("Average = ",sum/num);
+          ^~~~~~~~~~~~
+gcc -o ex2.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+15:26:51 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+15:27:21 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:22:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   scanf ("%f",a[i]);
+            ^
+..\main.c:26:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("Average = ",sum/num);
+          ^~~~~~~~~~~~
+gcc -o ex2.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+15:27:24 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+15:28:25 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:26:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("Average = ",sum/num);
+          ^~~~~~~~~~~~
+gcc -o ex2.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+15:28:29 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+15:29:22 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+15:30:06 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex2.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+15:54:05 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+15:56:17 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+15:56:42 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:56:47 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+15:57:06 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+15:57:10 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:00:17 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:12:2: error: unknown type name 'string'
+  string name
+  ^~~~~~
+..\main.c:13:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+  int age;
+  ^~~
+..\main.c:17:14: error: 'name' undeclared (first use in this function)
+  scanf("%s",&name);
+              ^~~~
+..\main.c:17:14: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:22:29: error: 'age' undeclared (first use in this function)
+  printf("Your age is %d \n",age);
+                             ^~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:02:34 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:19:14: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("Hi %s :-) ,What's your age? \n",name [0]);
+              ^
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:03:46 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:19:14: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("Hi %s :-) ,What's your age? \n",name [0]);
+              ^
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:14:27 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:17:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:17:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:25:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:25:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:27:19: error: array subscript is not an integer
+    scanf ("%.2f",a[r][c]);
+                   ^
+..\main.c:12:13: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  float r,c, a[10][10];
+             ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:14:45 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:17:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:17:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:25:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:25:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:27:17: error: array subscript is not an integer
+    scanf ("%f",a[r][c]);
+                 ^
+..\main.c:12:13: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  float r,c, a[10][10];
+             ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:15:24 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:17:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:17:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:25:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:25:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:27:18: error: array subscript is not an integer
+    scanf ("%f",&a[r][c]);
+                  ^
+..\main.c:12:13: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  float r,c, a[10][10];
+             ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:16:18 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:18:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:18: error: array subscript is not an integer
+    scanf ("%f",&a[r][c]);
+                  ^
+..\main.c:13:8: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  float a[10][10];
+        ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:16:21 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:18:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:18: error: array subscript is not an integer
+    scanf ("%f",&a[r][c]);
+                  ^
+..\main.c:13:8: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  float a[10][10];
+        ^
+16:16:23 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:18:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:18: error: array subscript is not an integer
+    scanf ("%f",&a[r][c]);
+                  ^
+..\main.c:13:8: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  float a[10][10];
+        ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:17:26 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:18:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:18: error: array subscript is not an integer
+    scanf ("%f",&a[r][c]);
+                  ^
+..\main.c:13:8: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  float a[5][5];
+        ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:17:37 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:18:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:18: error: array subscript is not an integer
+    scanf ("%d",&a[r][c]);
+                  ^
+..\main.c:13:8: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  float a[5][5];
+        ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:17:46 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:18:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:18: error: array subscript is not an integer
+    scanf ("%d",&a[r][c]);
+                  ^
+..\main.c:13:6: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  int a[5][5];
+      ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:18:13 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:18:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:17: error: 'a' undeclared (first use in this function)
+    scanf ("%f",&a[r][c]);
+                 ^
+..\main.c:28:17: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:13:8: warning: unused variable 'mat_a' [-Wunused-variable]
+  float mat_a [5][5];
+        ^~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:18:38 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:18:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:22: error: array subscript is not an integer
+    scanf ("%f",mat_a [r][c]);
+                      ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+16:18:40 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:18:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:22: error: array subscript is not an integer
+    scanf ("%f",mat_a [r][c]);
+                      ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:18:47 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:18:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:22: error: array subscript is not an integer
+    scanf ("%f",mat_a [r][c]);
+                      ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+16:18:48 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:18:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:22: error: array subscript is not an integer
+    scanf ("%f",mat_a [r][c]);
+                      ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:19:22 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+           ^
+..\main.c:18:14: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf ("%d %d",row,col);
+              ^
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:22: error: array subscript is not an integer
+    scanf ("%f",mat_a [r][c]);
+                      ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:20:14 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:22: error: array subscript is not an integer
+    scanf ("%f",mat_a [r][c]);
+                      ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:20:29 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:22: error: array subscript is not an integer
+    scanf ("%f",mat_a [r][c]);
+                      ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+16:20:34 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:22: error: array subscript is not an integer
+    scanf ("%f",mat_a [r][c]);
+                      ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:21:56 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:21: error: array subscript is not an integer
+    scanf("%f",mat_a [r] [c]);
+                     ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:22:48 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:27:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:27:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:29:22: error: array subscript is not an integer
+    scanf("%f", &mat_a[r][c]);
+                      ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:22:50 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:27:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:27:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:29:22: error: array subscript is not an integer
+    scanf("%f", &mat_a[r][c]);
+                      ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+16:22:51 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:27:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:27:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:29:22: error: array subscript is not an integer
+    scanf("%f", &mat_a[r][c]);
+                      ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:05:50 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:26:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                            ^
+..\main.c:26:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+    printf("Enter Element a%d%d: ",r+1,c+1);
+                              ^
+..\main.c:28:22: error: array subscript is not an integer
+    scanf("%f", &mat_a[r][c]);
+                      ^
+..\main.c:13:8: warning: variable 'mat_a' set but not used [-Wunused-but-set-variable]
+  float mat_a [5][5];
+        ^~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:06:13 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:06:20 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:09:44 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:10:24 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:11:01 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:11:18 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:13:52 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:14:28 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:19:23 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:21:04 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:21:32 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:22:44 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:23:34 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+17:26:45 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+17:32:29 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+17:32:58 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+17:33:03 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+17:33:34 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:33:37 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+17:35:49 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+17:36:35 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+17:36:38 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+17:38:43 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+17:38:46 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+17:48:47 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:21:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%f",a[i]);
+           ^
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+17:48:51 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:06:21 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:21:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+   scanf("%f",&a[i]);
+           ^
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:07:24 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:21:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+   scanf("%f",&a[i]);
+           ^
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:07:30 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:11:21 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:21:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+   scanf("%f",&a[i]);
+           ^
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:11:25 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:11:52 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:21:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+   scanf("%f",&a[i]);
+           ^
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:11:57 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:14:46 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:20:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+   scanf("%f",&a[i]);
+           ^
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:14:53 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:15:44 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:19:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+   scanf("%f",&a[i]);
+           ^
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:15:49 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:16:03 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:20:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+   scanf("%f",&a[i]);
+           ^
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:16:35 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:20:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+   scanf("%f",&a[i]);
+           ^
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:16:38 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:21:13 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:29:54 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:29:58 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:30:40 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:31:42 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:36:31 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:47:2: error: expected ';' before '}' token
+  }
+  ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:36:41 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:39:12 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+18:44:43 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+20:01:01 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+20:01:33 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+20:03:20 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex4
+20:04:21 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+20:13:37 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+20:13:38 **** Rebuild of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",num)
+          ^
+..\main.c:18:2: error: expected ';' before '}' token
+  }
+  ^
+..\main.c:12:15: warning: unused variable 'search' [-Wunused-variable]
+  float a [20],search;
+               ^~~~~~
+..\main.c:12:8: warning: unused variable 'a' [-Wunused-variable]
+  float a [20],search;
+        ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:13:47 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",num);
+          ^
+..\main.c:12:15: warning: unused variable 'search' [-Wunused-variable]
+  float a [20],search;
+               ^~~~~~
+..\main.c:12:8: warning: unused variable 'a' [-Wunused-variable]
+  float a [20],search;
+        ^
+..\main.c:15:5: warning: 'num' is used uninitialized in this function [-Wuninitialized]
+  if (num<=20)
+     ^
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:14:15 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",num);
+          ^
+..\main.c:12:15: warning: unused variable 'search' [-Wunused-variable]
+  float a [20],search;
+               ^~~~~~
+..\main.c:12:8: warning: unused variable 'a' [-Wunused-variable]
+  float a [20],search;
+        ^
+..\main.c:16:5: warning: 'num' is used uninitialized in this function [-Wuninitialized]
+  if (num<=20)
+     ^
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:17:51 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",num);
+          ^
+..\main.c:22:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   scanf("%f",a[i]);
+           ^
+..\main.c:28:4: warning: implicit declaration of function 'Printf' [-Wimplicit-function-declaration]
+    Printf("%0.2f",a [i]);
+    ^~~~~~
+..\main.c:12:15: warning: unused variable 'search' [-Wunused-variable]
+  float a [20],search;
+               ^~~~~~
+..\main.c:16:2: warning: 'num' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",num);
+  ^~~~~~~~~~~~~~~
+gcc -o ex5.exe main.o 
+main.o: In function `main':
+F:\Andrew\Embedded\embedded_system_online_diploma\C_Programming\Assignments\Assignment 3\ex5\Debug/../main.c:28: undefined reference to `Printf'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:18:08 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:16:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",num);
+          ^
+..\main.c:22:11: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   scanf("%f",a[i]);
+           ^
+..\main.c:12:15: warning: unused variable 'search' [-Wunused-variable]
+  float a [20],search;
+               ^~~~~~
+..\main.c:16:2: warning: 'num' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",num);
+  ^~~~~~~~~~~~~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:18:54 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:12:15: warning: unused variable 'search' [-Wunused-variable]
+  float a [20],search;
+               ^~~~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:19:27 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:12:15: warning: unused variable 'search' [-Wunused-variable]
+  float a [20],search;
+               ^~~~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+20:20:03 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:12:15: warning: unused variable 'search' [-Wunused-variable]
+  float a [20],search;
+               ^~~~~~
+gcc -o ex5.exe main.o 
+20:20:19 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:12:15: warning: unused variable 'search' [-Wunused-variable]
+  float a [20],search;
+               ^~~~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:24:10 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+20:24:48 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:24:54 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -o ex5.exe main.o 
+20:25:33 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+20:27:06 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+20:28:17 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+20:28:37 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:30:15 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:35:11 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:38:16: error: expected ';' before ')' token
+  for (i=0;i<num)
+                ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:36:27 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:38:16: error: expected ';' before ')' token
+  for (i=0;i<num)
+                ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:36:52 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:38:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  while (i=0;i<num)
+  ^~~~~
+..\main.c:38:12: error: expected ')' before ';' token
+  while (i=0;i<num)
+            ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:37:18 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:39:31 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:38:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  while (i=0; i<num)
+  ^~~~~
+..\main.c:38:12: error: expected ')' before ';' token
+  while (i=0; i<num)
+            ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:41:19 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:42:16 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+20:42:52 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:44:46 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:38:17: error: expected ';' before ')' token
+  for (i=0; i<num)
+                 ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:55:46 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+20:57:18 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+21:00:13 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+21:03:17 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+21:04:28 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+21:11:15 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+21:11:20 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -o ex5.exe main.o 
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+Info: Nothing to build for ex5
+03:30:37 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex1.exe main.o 
+03:30:38 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex2.exe main.o 
+03:30:39 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+03:30:39 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+03:30:40 **** Rebuild of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+03:30:41 **** Rebuild of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+03:32:13 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+03:33:28 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+03:34:24 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:18: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("I got: %s",a [0]);
+                  ^
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+03:35:06 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+03:35:50 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+03:36:34 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+03:37:15 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+03:38:30 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+03:48:09 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+03:48:17 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+03:49:15 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+03:49:43 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+Info: Nothing to build for ex6
+03:51:25 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+03:55:53 **** Rebuild of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex7.exe main.o 
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+03:59:12 **** Rebuild of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:19:2: warning: statement with no effect [-Wunused-value]
+  strlen(a);
+  ^~~~~~~~~
+..\main.c:21:39: error: 'len' undeclared (first use in this function)
+  printf("length of the string = %d\n",len);
+                                       ^~~
+..\main.c:21:39: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+03:59:26 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:19:2: warning: statement with no effect [-Wunused-value]
+  strlen(a);
+  ^~~~~~~~~
+gcc -o ex8.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+04:01:22 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:22:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s",a[i]);
+            ^
+gcc -o ex8.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+Info: Nothing to build for ex8
+Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+04:02:06 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex8.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+04:03:10 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex8.exe main.o 
+Info: Nothing to build for ex8
+04:04:27 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex8.exe main.o 
+04:05:31 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex8.exe main.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+04:06:40 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:24:12: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   printf("%c",&a[i]);
+            ^
+gcc -o ex8.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+04:07:13 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex8.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+Info: Nothing to build for ex7
+04:08:26 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex8.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+15:41:17 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex2.exe main.o 
+15:41:19 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex3.exe main.o 
+15:41:20 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex4.exe main.o 
+15:41:20 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex5.exe main.o 
+15:41:21 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex6.exe main.o 
+15:41:22 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex7.exe main.o 
+15:41:22 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex8.exe main.o 
+17:01:14 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex1.exe main.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+17:01:15 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex7.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+17:01:51 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex7.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+17:02:42 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex7.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+17:03:27 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:35:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:40:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Enter a string: ");
+  ^~~~~~
+..\main.c:40:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\main.c:40:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\main.c:41:2: warning: implicit declaration of function 'fflush' [-Wimplicit-function-declaration]
+  fflush(stdout);
+  ^~~~~~
+..\main.c:41:9: error: 'stdout' undeclared (first use in this function)
+  fflush(stdout);
+         ^~~~~~
+..\main.c:41:9: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:42:2: warning: implicit declaration of function 'gets' [-Wimplicit-function-declaration]
+  gets(a);
+  ^~~~
+..\main.c:37:10: warning: unused variable 'len' [-Wunused-variable]
+  int i=0,len=0;
+          ^~~
+..\main.c:37:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0,len=0;
+      ^
+Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+17:03:29 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:35:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:40:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("Enter a string: ");
+  ^~~~~~
+..\main.c:40:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\main.c:40:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\main.c:41:2: warning: implicit declaration of function 'fflush' [-Wimplicit-function-declaration]
+  fflush(stdout);
+  ^~~~~~
+..\main.c:41:9: error: 'stdout' undeclared (first use in this function)
+  fflush(stdout);
+         ^~~~~~
+..\main.c:41:9: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:42:2: warning: implicit declaration of function 'gets' [-Wimplicit-function-declaration]
+  gets(a);
+  ^~~~
+..\main.c:37:10: warning: unused variable 'len' [-Wunused-variable]
+  int i=0,len=0;
+          ^~~
+..\main.c:37:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0,len=0;
+      ^
+Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+17:03:52 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:36:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:38:10: warning: unused variable 'len' [-Wunused-variable]
+  int i=0,len=0;
+          ^~~
+..\main.c:38:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0,len=0;
+      ^
+gcc -o ex7.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+17:04:41 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:36:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:38:10: warning: unused variable 'len' [-Wunused-variable]
+  int i=0,len=0;
+          ^~~
+..\main.c:38:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0,len=0;
+      ^
+gcc -o ex7.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex7
+17:05:05 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:36:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:43:15: error: expected expression before ']' token
+  scanf("%c",a[]);
+               ^
+..\main.c:38:10: warning: unused variable 'len' [-Wunused-variable]
+  int i=0,len=0;
+          ^~~
+..\main.c:38:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0,len=0;
+      ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+17:05:24 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:36:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:43:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'char (*)[5]' [-Wformat=]
+  scanf("%c",&a);
+          ^
+..\main.c:38:10: warning: unused variable 'len' [-Wunused-variable]
+  int i=0,len=0;
+          ^~~
+..\main.c:38:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0,len=0;
+      ^
+gcc -o ex7.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+17:06:16 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:36:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:38:10: warning: unused variable 'len' [-Wunused-variable]
+  int i=0,len=0;
+          ^~~
+..\main.c:38:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0,len=0;
+      ^
+gcc -o ex7.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex6
+17:08:29 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex7.exe main.o 
+Info: Nothing to build for ex8
+Info: Nothing to build for ex7
