@@ -6,10 +6,10 @@
 
 ## Contents
 
-### First Term ![image](https://progress-bar.dev/100/?title=Done)
+### First Term ![image](https://progress-bar.dev/100/?title=going on)
 
 - [Unit 1: Diploma Prerequisites](https://github.com/Andrew-Hany/Master_Embedded_Systems) ![image](https://progress-bar.dev/100/?title=No_Assignments&color=bababa)
-- [Unit 2: C Programming](Unit_2_C_Programming) ![image](https://progress-bar.dev/100/)
+- [Unit 2: C Programming](Unit_2_C_Programming) ![image](https://progress-bar.dev/70/)
 
 ---
 
