@@ -13,7 +13,7 @@
 
 ---
 
-## Overall progress ![image](https://progress-bar.dev/2/?scale=3&title=Terms&suffix=&width=230&color=aa00ff)
+## Overall progress ![image](https://progress-bar.dev/1/?scale=3&title=Terms&suffix=&width=230&color=aa00ff)
 
 [![image](https://github.com/EngAndrewHany/Embedded_System_Online_Diploma/blob/master/Certification.png)](https://www.learn-in-depth.com/online-diploma/andrewhany67@gmail.com)
 
