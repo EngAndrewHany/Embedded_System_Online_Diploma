@@ -8,20 +8,15 @@
 
 #include <stdio.h>
 
+#define pi 3.14
 
+#define Area(r) (pi*r*r)
 
 void main ()
 {
-union a
-{
-	char name  [20];
-	int age;
-	int ho;
-
-};
-union a var ;
-
-var.age = 0;
-var.name [1]= 'G';
-printf("%s ",var.name [1] );
+	float r = 0 ;
+	printf ("Enter The radius:");
+	fflush(stdout);
+	scanf ("%f",&r);
+	printf("The Area = %.2f", Area(r));
 }
