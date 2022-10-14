@@ -24,8 +24,14 @@ int main ()
 	void* p2 = &array [4];
 	int sizeofFirstElement = sizeof(array[0]);
 
-	printf ("the address of first element is: 0x%d \n", p1);
-	printf ("the address of last  element is: 0x%d \n", p2);
+	for (int i = 0 ; i < sizeof(array)/sizeof(array [0]) ; i++)
+	{
+		printf ("%d \t",array [i]);
+	}
+
+	printf ("\n");
+	printf ("the address of first element is: 0x%p \n", p1);
+	printf ("the address of last  element is: 0x%p \n", p2);
 	printf ("the size of first element is: %d \n", sizeofFirstElement);
 
 	findsizeofarray(p1 , p2 , sizeofFirstElement );
