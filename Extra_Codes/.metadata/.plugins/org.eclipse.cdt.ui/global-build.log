@@ -1,0 +1,2697 @@
+11:57:34 **** Rebuild of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+11:58:58 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+12:07:06 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+12:12:35 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:11:24: error: expected ')' before 't'
+ #define swap(a,b,c) (c t; t=a, a=b, b=t)
+                        ^
+..\main.c:16:1: note: in expansion of macro 'swap'
+ swap (x , y , int);
+ ^~~~
+..\main.c:16:19: error: expected expression before ';' token
+ swap (x , y , int);
+                   ^
+..\main.c:17:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("d %d",x,y);
+         ^~~~~~
+12:13:05 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:11:24: error: expected ')' before 't'
+ #define swap(a,b,c) (c t; t=a, a=b, b=t)
+                        ^
+..\main.c:16:2: note: in expansion of macro 'swap'
+  swap (x , y , int);
+  ^~~~
+..\main.c:16:20: error: expected expression before ';' token
+  swap (x , y , int);
+                    ^
+12:13:26 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:16: error: 'c' undeclared (first use in this function)
+  swap (x , y , c );
+                ^
+..\main.c:11:22: note: in definition of macro 'swap'
+ #define swap(a,b,c) (c t; t=a, a=b, b=t)
+                      ^
+..\main.c:16:16: note: each undeclared identifier is reported only once for each function it appears in
+  swap (x , y , c );
+                ^
+..\main.c:11:22: note: in definition of macro 'swap'
+ #define swap(a,b,c) (c t; t=a, a=b, b=t)
+                      ^
+..\main.c:11:24: error: expected ')' before 't'
+ #define swap(a,b,c) (c t; t=a, a=b, b=t)
+                        ^
+..\main.c:16:2: note: in expansion of macro 'swap'
+  swap (x , y , c );
+  ^~~~
+12:13:35 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:11:24: error: expected ')' before 't'
+ #define swap(a,b,c) (c t; t=a, a=b, b=t)
+                        ^
+..\main.c:16:2: note: in expansion of macro 'swap'
+  swap (x , y , int );
+  ^~~~
+..\main.c:16:21: error: expected expression before ';' token
+  swap (x , y , int );
+                     ^
+12:13:49 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:20: error: expected ')' before 'c'
+  swap (x , y , int c );
+                    ^
+..\main.c:11:22: note: in definition of macro 'swap'
+ #define swap(a,b,c) (c t; t=a, a=b, b=t)
+                      ^
+..\main.c:16:23: error: expected expression before ';' token
+  swap (x , y , int c );
+                       ^
+12:17:12 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+12:19:02 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+12:22:02 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+12:23:37 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+12:23:53 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:17:16: error: 'X' undeclared (first use in this function)
+ printf("%d %d",X ,Y);
+                ^
+..\main.c:17:16: note: each undeclared identifier is reported only once for each function it appears in
+12:24:07 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:17:13: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+ printf("%d %d",Y);
+             ^
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+12:24:17 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+12:28:34 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:11:12: error: 'x' undeclared (first use in this function)
+ #define y (x+3)
+            ^
+..\main.c:10:14: note: in expansion of macro 'y'
+ #define x (4+y)
+              ^
+..\main.c:15:15: note: in expansion of macro 'x'
+ printf("%d",4*x+2);
+               ^
+..\main.c:11:12: note: each undeclared identifier is reported only once for each function it appears in
+ #define y (x+3)
+            ^
+..\main.c:10:14: note: in expansion of macro 'y'
+ #define x (4+y)
+              ^
+..\main.c:15:15: note: in expansion of macro 'x'
+ printf("%d",4*x+2);
+               ^
+12:28:38 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:11:12: error: 'x' undeclared (first use in this function)
+ #define y (x+3)
+            ^
+..\main.c:10:14: note: in expansion of macro 'y'
+ #define x (4+y)
+              ^
+..\main.c:15:15: note: in expansion of macro 'x'
+ printf("%d",4*x+2);
+               ^
+..\main.c:11:12: note: each undeclared identifier is reported only once for each function it appears in
+ #define y (x+3)
+            ^
+..\main.c:10:14: note: in expansion of macro 'y'
+ #define x (4+y)
+              ^
+..\main.c:15:15: note: in expansion of macro 'x'
+ printf("%d",4*x+2);
+               ^
+12:33:36 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+12:33:59 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:34:04 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+12:34:31 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+01:37:36 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:15:2: warning: statement with no effect [-Wunused-value]
+  for (row ; row < 5 ; row ++)
+  ^~~
+..\main.c:17:3: warning: statement with no effect [-Wunused-value]
+   for (colom ; colom < 5 ;colom++)
+   ^~~
+..\main.c:19:17: warning: unknown conversion type character 't' in format [-Wformat=]
+    printf ("%d %t",array  [row] [colom]);
+                 ^
+..\main.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+01:37:48 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:15:2: warning: statement with no effect [-Wunused-value]
+  for (row ; row < 5 ; row ++)
+  ^~~
+..\main.c:17:3: warning: statement with no effect [-Wunused-value]
+   for (colom ; colom < 5 ;colom++)
+   ^~~
+..\main.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+01:38:22 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:15:2: warning: statement with no effect [-Wunused-value]
+  for (row ; row < 5 ; row ++)
+  ^~~
+..\main.c:17:3: warning: statement with no effect [-Wunused-value]
+   for (colom ; colom < 5 ;colom++)
+   ^~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+01:39:02 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:12:36: error: expected declaration specifiers or '...' before numeric constant
+ int fill_array (int array [] [5] , 5 )
+                                    ^
+..\main.c: In function 'main':
+..\main.c:39:2: warning: implicit declaration of function 'fill_array' [-Wimplicit-function-declaration]
+  fill_array (array , 5);
+  ^~~~~~~~~~
+01:40:24 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:15:2: warning: statement with no effect [-Wunused-value]
+  for (row ; row < 5 ; row ++)
+  ^~~
+..\main.c:17:3: warning: statement with no effect [-Wunused-value]
+   for (colom ; colom < 5 ;colom++)
+   ^~~
+..\main.c: In function 'main':
+..\main.c:39:2: error: too many arguments to function 'fill_array'
+  fill_array (array , 5);
+  ^~~~~~~~~~
+..\main.c:12:5: note: declared here
+ int fill_array (int array [5] [5]  )
+     ^~~~~~~~~~
+01:40:33 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:15:2: warning: statement with no effect [-Wunused-value]
+  for (row ; row < 5 ; row ++)
+  ^~~
+..\main.c:17:3: warning: statement with no effect [-Wunused-value]
+   for (colom ; colom < 5 ;colom++)
+   ^~~
+..\main.c: In function 'main':
+..\main.c:39:2: error: too many arguments to function 'fill_array'
+  fill_array (array , 5);
+  ^~~~~~~~~~
+..\main.c:12:5: note: declared here
+ int fill_array (int array [] [5]  )
+     ^~~~~~~~~~
+01:40:41 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:15:2: warning: statement with no effect [-Wunused-value]
+  for (row ; row < 5 ; row ++)
+  ^~~
+..\main.c:17:3: warning: statement with no effect [-Wunused-value]
+   for (colom ; colom < 5 ;colom++)
+   ^~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+01:40:50 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:15:2: warning: statement with no effect [-Wunused-value]
+  for (row ; row < 5 ; row ++)
+  ^~~
+..\main.c:17:3: warning: statement with no effect [-Wunused-value]
+   for (colom ; colom < 5 ;colom++)
+   ^~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+01:42:22 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:16:2: warning: statement with no effect [-Wunused-value]
+  for (r ; r < 5 ; r ++)
+  ^~~
+..\main.c:18:3: warning: statement with no effect [-Wunused-value]
+   for (c ; c < 5 ;c++)
+   ^~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+01:42:41 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:16:2: warning: statement with no effect [-Wunused-value]
+  for (r ; r < 5 ; r ++)
+  ^~~
+..\main.c:18:3: warning: statement with no effect [-Wunused-value]
+   for (c ; c < 5 ;c++)
+   ^~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+01:45:15 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+01:45:45 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:18:31: error: subscripted value is neither array nor pointer nor vector
+    printf ("%d \t",matrix [i] [j]);
+                               ^
+01:46:05 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:18:28: error: subscripted value is neither array nor pointer nor vector
+    printf ("%d \t", matrix [i] [j]);
+                            ^
+..\main.c: In function 'main':
+..\main.c:28:19: warning: passing argument 3 of 'fill_array' makes integer from pointer without a cast [-Wint-conversion]
+  fill_array(5, 5, matrix[0]);
+                   ^~~~~~
+..\main.c:11:6: note: expected 'int' but argument is of type 'int *'
+ void fill_array(int row, int col, int matrix)
+      ^~~~~~~~~~
+01:46:09 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:18:28: error: subscripted value is neither array nor pointer nor vector
+    printf ("%d \t", matrix [i] [j]);
+                            ^
+..\main.c: In function 'main':
+..\main.c:28:19: warning: passing argument 3 of 'fill_array' makes integer from pointer without a cast [-Wint-conversion]
+  fill_array(5, 5, matrix[0]);
+                   ^~~~~~
+..\main.c:11:6: note: expected 'int' but argument is of type 'int *'
+ void fill_array(int row, int col, int matrix)
+      ^~~~~~~~~~
+01:46:36 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:18:28: error: subscripted value is neither array nor pointer nor vector
+    printf ("%d \t", matrix [i][j]);
+                            ^
+..\main.c: In function 'main':
+..\main.c:28:19: warning: passing argument 3 of 'fill_array' makes integer from pointer without a cast [-Wint-conversion]
+  fill_array(5, 5, matrix);
+                   ^~~~~~
+..\main.c:11:6: note: expected 'int' but argument is of type 'int (*)[5]'
+ void fill_array(int row, int col, int matrix)
+      ^~~~~~~~~~
+01:46:38 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:18:28: error: subscripted value is neither array nor pointer nor vector
+    printf ("%d \t", matrix [i][j]);
+                            ^
+..\main.c: In function 'main':
+..\main.c:28:19: warning: passing argument 3 of 'fill_array' makes integer from pointer without a cast [-Wint-conversion]
+  fill_array(5, 5, matrix);
+                   ^~~~~~
+..\main.c:11:6: note: expected 'int' but argument is of type 'int (*)[5]'
+ void fill_array(int row, int col, int matrix)
+      ^~~~~~~~~~
+01:51:36 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:21:36: error: subscripted value is neither array nor pointer nor vector
+             printf("%d ", matrix[i][j]);
+                                    ^
+..\main.c: In function 'main':
+..\main.c:31:13: warning: passing argument 1 of 'fill_array' from incompatible pointer type [-Wincompatible-pointer-types]
+  fill_array(matrix , size , size);
+             ^~~~~~
+..\main.c:12:6: note: expected 'int *' but argument is of type 'int (*)[5]'
+ void fill_array (int *matrix, int row, int column)
+      ^~~~~~~~~~
+01:51:59 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:21:36: error: subscripted value is neither array nor pointer nor vector
+             printf("%d ", matrix[i][j]);
+                                    ^
+..\main.c: In function 'main':
+..\main.c:31:13: warning: passing argument 1 of 'fill_array' from incompatible pointer type [-Wincompatible-pointer-types]
+  fill_array(matrix , size , size);
+             ^~~~~~
+..\main.c:12:6: note: expected 'int *' but argument is of type 'int (*)[5]'
+ void fill_array (int *matrix, int row, int column)
+      ^~~~~~~~~~
+01:54:44 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+01:54:55 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+01:55:45 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:14:17: error: expected identifier or '(' before ';' token
+     int i , j , ;
+                 ^
+01:55:51 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+01:56:00 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:12:22: error: array type has incomplete element type 'int[]'
+ void fill_array (int matrix [] [], int row , int column)
+                      ^~~~~~
+..\main.c:12:22: note: declaration of 'matrix' as multidimensional array must have bounds for all dimensions except the first
+..\main.c: In function 'main':
+..\main.c:30:13: error: type of formal parameter 1 is incomplete
+  fill_array(matrix , size , size );
+             ^~~~~~
+01:56:07 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+01:58:24 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+01:59:35 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+01:59:45 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:01:22 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:26:28: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+           matrix [i] [j] = rand() % 100 + 1 ;
+                            ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:01:30 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:26:28: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+           matrix [i] [j] = rand() % 15 + 1 ;
+                            ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:02:24 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:26:35: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+           matrix [i] [j] = -15 + (rand() % 15) ;
+                                   ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:02:38 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:26:35: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+           matrix [i] [j] = -15 + (rand() % 15 +1) ;
+                                   ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:04:52 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:26:28: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+           matrix [i] [j] = rand() % (15 + 1 - 15) + -15
+                            ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:12:16 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:26:29: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+           matrix [i] [j] = (rand() %15) + -15) ;
+                             ^~~~
+..\main.c:26:46: error: expected ';' before ')' token
+           matrix [i] [j] = (rand() %15) + -15) ;
+                                              ^
+..\main.c:26:46: error: expected statement before ')' token
+02:12:29 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:26:29: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+           matrix [i] [j] = (rand() %15) + -15) ;
+                             ^~~~
+..\main.c:26:46: error: expected ';' before ')' token
+           matrix [i] [j] = (rand() %15) + -15) ;
+                                              ^
+..\main.c:26:46: error: expected statement before ')' token
+02:12:39 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:26:29: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+           matrix [i] [j] = (rand() %15) + -15 ;
+                             ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:12:53 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:26:29: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+           matrix [i] [j] = (rand() %30) + -15 ;
+                             ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:16:11 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:26:29: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+           matrix [i] [j] = (rand() % (15 - -15 +1)) + -15) ;
+                             ^~~~
+..\main.c:26:58: error: expected ';' before ')' token
+           matrix [i] [j] = (rand() % (15 - -15 +1)) + -15) ;
+                                                          ^
+..\main.c:26:58: error: expected statement before ')' token
+02:16:28 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:26:29: warning: implicit declaration of function 'rand' [-Wimplicit-function-declaration]
+           matrix [i] [j] = (rand() % (15 - -15 +1)) + -15 ;
+                             ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+02:17:25 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+02:19:04 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'fill_array':
+..\main.c:33:8: warning: 'return' with a value, in function returning void
+ return matrix ;
+        ^~~~~~
+..\main.c:13:6: note: declared here
+ void fill_array (int matrix [] [5], int row , int column)
+      ^~~~~~~~~~
+..\main.c: In function 'main':
+..\main.c:42:21: error: void value not ignored as it ought to be
+  matrix[size][size] = fill_array(matrix , size , size );
+                     ^
+02:20:10 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:44:2: error: expected ';' before 'return'
+  return 0;
+  ^~~~~~
+02:20:14 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:20:34 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+02:20:50 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+02:20:56 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:21:07 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:21:15 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:27:08 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:55:12: warning: unused variable 'column' [-Wunused-variable]
+  int row , column;
+            ^~~~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:28:12 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:56:12: warning: unused variable 'column' [-Wunused-variable]
+  int row , column;
+            ^~~~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:28:49 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:56:12: warning: unused variable 'column' [-Wunused-variable]
+  int row , column;
+            ^~~~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+02:33:38 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:54:6: error: redefinition of 'sum_row'
+ void sum_row (int matrix [] [5], int row , int column , int sum_column)
+      ^~~~~~~
+..\main.c:37:6: note: previous definition of 'sum_row' was here
+ void sum_row (int matrix [] [5], int row , int column , int sum_row)
+      ^~~~~~~
+..\main.c: In function 'main':
+..\main.c:86:2: warning: implicit declaration of function 'sum_column' [-Wimplicit-function-declaration]
+  sum_column(matrix , size , size , column );
+  ^~~~~~~~~~
+02:33:40 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:54:6: error: redefinition of 'sum_row'
+ void sum_row (int matrix [] [5], int row , int column , int sum_column)
+      ^~~~~~~
+..\main.c:37:6: note: previous definition of 'sum_row' was here
+ void sum_row (int matrix [] [5], int row , int column , int sum_row)
+      ^~~~~~~
+..\main.c: In function 'main':
+..\main.c:86:2: warning: implicit declaration of function 'sum_column' [-Wimplicit-function-declaration]
+  sum_column(matrix , size , size , column );
+  ^~~~~~~~~~
+02:33:47 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:54:6: error: redefinition of 'sum_row'
+ void sum_row (int matrix [] [5], int row , int column , int sum_column)
+      ^~~~~~~
+..\main.c:37:6: note: previous definition of 'sum_row' was here
+ void sum_row (int matrix [] [5], int row , int column , int sum_row)
+      ^~~~~~~
+..\main.c: In function 'main':
+..\main.c:86:2: warning: implicit declaration of function 'sum_column' [-Wimplicit-function-declaration]
+  sum_column(matrix , size , size , column );
+  ^~~~~~~~~~
+02:34:14 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:35:58 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:36:02 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:36:57 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:38:05 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:40:59 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'sum_column':
+..\main.c:60:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   for(i=sum_row ; ; )
+        ^
+..\main.c:64:23: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)(int (*)[5], int,  int,  int)' [-Wformat=]
+   printf("sum of row %d = %d \n",sum_row , sum);
+                       ^
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:42:58 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+02:46:15 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:46:19 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe main.o 
+Command canceled
+02:46:20 **** Rebuild of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+02:46:42 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:48:27 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:50:26 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+02:50:57 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:51:02 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+02:56:38 **** Rebuild of configuration Debug for project Q1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Q1.exe main.o 
+Info: Nothing to build for Q1
+Info: Nothing to build for Q1
+Info: Nothing to build for Q1
+Info: Nothing to build for Q1
+Info: Nothing to build for Q1
+Info: Nothing to build for Q1
+03:00:05 **** Rebuild of configuration Debug for project Question1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question1.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question1
+11:48:57 **** Rebuild of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("the address of first element is: %d\nthe address of the last element is: &d", *p1 , *p2);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+11:49:20 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: %d\nthe address of the last element is: &d", p1 , p2);
+                                             ^
+..\main.c:16:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("the address of first element is: %d\nthe address of the last element is: &d", p1 , p2);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+11:51:20 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: %d\nthe address of the last element is: &d", p1 , p2);
+                                             ^
+..\main.c:16:10: warning: too many arguments for format [-Wformat-extra-args]
+  printf ("the address of first element is: %d\nthe address of the last element is: &d", p1 , p2);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Question2.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Question2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+11:51:25 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+11:54:41 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:45: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: %d", p1);
+                                             ^
+..\main.c:17:44: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last element is: %d", p2);
+                                            ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+11:55:01 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:45: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: %x ", p1);
+                                             ^
+..\main.c:17:44: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last element is: %x ", p2);
+                                            ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+11:55:09 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:45: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: %x \n", p1);
+                                             ^
+..\main.c:17:44: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last element is: %x \n", p2);
+                                            ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+11:57:11 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: 0x%x \n", p1);
+                                               ^
+..\main.c:17:46: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last element is: 0x%x \n", p2);
+                                              ^
+gcc -o Question2.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Question2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+11:57:16 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+11:57:38 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: 0x%x \n", p1);
+                                               ^
+..\main.c:17:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last  element is: 0x%x \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Question2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+11:57:43 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+11:59:01 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: 0x%x \n", p1);
+                                               ^
+..\main.c:17:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last  element is: 0x%x \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+11:59:25 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: 0x%x \n", p1);
+                                               ^
+..\main.c:17:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last  element is: 0x%x \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+12:00:06 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: 0x%x \n", p1);
+                                               ^
+..\main.c:17:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last  element is: 0x%x \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+12:00:18 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:14:12: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  int* p1 = &array ;
+            ^
+..\main.c:16:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: 0x%x \n", p1);
+                                               ^
+..\main.c:17:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last  element is: 0x%x \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+12:01:09 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: 0x%x \n", p1);
+                                               ^
+..\main.c:17:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last  element is: 0x%x \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+12:02:28 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: 0x%x \n", p1);
+                                               ^
+..\main.c:17:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last  element is: 0x%x \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Question2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+12:02:33 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+12:03:14 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: 0x%x \n", p1);
+                                               ^
+..\main.c:17:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last  element is: 0x%x \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+12:03:39 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: 0x%x \n", p1);
+                                               ^
+..\main.c:17:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last  element is: 0x%x \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+12:11:01 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:18:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: 0x%x \n", p1);
+                                               ^
+..\main.c:19:47: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last  element is: 0x%x \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+12:11:57 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:18:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:19:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+12:17:18 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:17:1: error: expected expression before '}' token
+ }
+ ^
+..\main.c:20:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main ()
+     ^~~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+..\main.c:32:18: warning: dereferencing 'void *' pointer
+  findsizeofarray(* p1 , * p2 , sizeofFirstElement );
+                  ^~~~
+..\main.c:32:25: warning: dereferencing 'void *' pointer
+  findsizeofarray(* p1 , * p2 , sizeofFirstElement );
+                         ^~~~
+..\main.c:32:2: error: invalid use of void expression
+  findsizeofarray(* p1 , * p2 , sizeofFirstElement );
+  ^~~~~~~~~~~~~~~
+..\main.c:32:2: error: invalid use of void expression
+..\main.c: In function 'findsizeofarray':
+..\main.c:34:1: error: expected declaration or statement at end of input
+ }
+ ^
+..\main.c:15:6: warning: unused variable 'sizeofarray' [-Wunused-variable]
+  int sizeofarray =
+      ^~~~~~~~~~~
+..\main.c:14:6: warning: unused variable 'range' [-Wunused-variable]
+  int range = p1 - p2 ;
+      ^~~~~
+At top level:
+..\main.c:20:5: warning: 'main' defined but not used [-Wunused-function]
+ int main ()
+     ^~~~
+Info: Nothing to build for Question1
+12:17:26 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:15:6: warning: unused variable 'sizeofarray' [-Wunused-variable]
+  int sizeofarray ;
+      ^~~~~~~~~~~
+..\main.c:14:6: warning: unused variable 'range' [-Wunused-variable]
+  int range = p1 - p2 ;
+      ^~~~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+..\main.c:32:18: warning: dereferencing 'void *' pointer
+  findsizeofarray(* p1 , * p2 , sizeofFirstElement );
+                  ^~~~
+..\main.c:32:25: warning: dereferencing 'void *' pointer
+  findsizeofarray(* p1 , * p2 , sizeofFirstElement );
+                         ^~~~
+..\main.c:32:2: error: invalid use of void expression
+  findsizeofarray(* p1 , * p2 , sizeofFirstElement );
+  ^~~~~~~~~~~~~~~
+..\main.c:32:2: error: invalid use of void expression
+Info: Nothing to build for Question1
+12:17:29 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:15:6: warning: unused variable 'sizeofarray' [-Wunused-variable]
+  int sizeofarray ;
+      ^~~~~~~~~~~
+..\main.c:14:6: warning: unused variable 'range' [-Wunused-variable]
+  int range = p1 - p2 ;
+      ^~~~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+..\main.c:32:18: warning: dereferencing 'void *' pointer
+  findsizeofarray(* p1 , * p2 , sizeofFirstElement );
+                  ^~~~
+..\main.c:32:25: warning: dereferencing 'void *' pointer
+  findsizeofarray(* p1 , * p2 , sizeofFirstElement );
+                         ^~~~
+..\main.c:32:2: error: invalid use of void expression
+  findsizeofarray(* p1 , * p2 , sizeofFirstElement );
+  ^~~~~~~~~~~~~~~
+..\main.c:32:2: error: invalid use of void expression
+Info: Nothing to build for Question1
+12:17:47 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:15:6: warning: unused variable 'sizeofarray' [-Wunused-variable]
+  int sizeofarray ;
+      ^~~~~~~~~~~
+..\main.c:14:6: warning: unused variable 'range' [-Wunused-variable]
+  int range = p1 - p2 ;
+      ^~~~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+..\main.c:32:18: warning: dereferencing 'void *' pointer
+  findsizeofarray(*p1 , *p2 , sizeofFirstElement );
+                  ^~~
+..\main.c:32:24: warning: dereferencing 'void *' pointer
+  findsizeofarray(*p1 , *p2 , sizeofFirstElement );
+                        ^~~
+..\main.c:32:2: error: invalid use of void expression
+  findsizeofarray(*p1 , *p2 , sizeofFirstElement );
+  ^~~~~~~~~~~~~~~
+..\main.c:32:2: error: invalid use of void expression
+Info: Nothing to build for Question1
+12:18:00 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:15:6: warning: unused variable 'sizeofarray' [-Wunused-variable]
+  int sizeofarray ;
+      ^~~~~~~~~~~
+..\main.c:14:6: warning: unused variable 'range' [-Wunused-variable]
+  int range = p1 - p2 ;
+      ^~~~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+12:26:18 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:15:6: warning: unused variable 'sizeofarray' [-Wunused-variable]
+  int sizeofarray ;
+      ^~~~~~~~~~~
+..\main.c:14:6: warning: unused variable 'range' [-Wunused-variable]
+  int range = p1 - p2 ;
+      ^~~~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Question2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+12:26:22 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+12:31:01 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:15:6: warning: unused variable 'sizeofarray' [-Wunused-variable]
+  int sizeofarray ;
+      ^~~~~~~~~~~
+..\main.c:14:6: warning: unused variable 'range' [-Wunused-variable]
+  int range = p1 - p2 ;
+      ^~~~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+13:05:35 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+13:05:55 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:14:13: warning: dereferencing 'void *' pointer
+  int size = *p1 - *p2 + sizeofFirstElement;
+             ^~~
+..\main.c:14:19: warning: dereferencing 'void *' pointer
+  int size = *p1 - *p2 + sizeofFirstElement;
+                   ^~~
+..\main.c:14:13: error: void value not ignored as it ought to be
+  int size = *p1 - *p2 + sizeofFirstElement;
+             ^~~
+..\main.c:14:19: error: void value not ignored as it ought to be
+  int size = *p1 - *p2 + sizeofFirstElement;
+                   ^~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+13:05:56 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:14:13: warning: dereferencing 'void *' pointer
+  int size = *p1 - *p2 + sizeofFirstElement;
+             ^~~
+..\main.c:14:19: warning: dereferencing 'void *' pointer
+  int size = *p1 - *p2 + sizeofFirstElement;
+                   ^~~
+..\main.c:14:13: error: void value not ignored as it ought to be
+  int size = *p1 - *p2 + sizeofFirstElement;
+             ^~~
+..\main.c:14:19: error: void value not ignored as it ought to be
+  int size = *p1 - *p2 + sizeofFirstElement;
+                   ^~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+Info: Nothing to build for Question1
+13:06:41 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:14:13: warning: dereferencing 'void *' pointer
+  int size = *p1 - *p2 + sizeofFirstElement;
+             ^~~
+..\main.c:14:19: warning: dereferencing 'void *' pointer
+  int size = *p1 - *p2 + sizeofFirstElement;
+                   ^~~
+..\main.c:14:13: error: void value not ignored as it ought to be
+  int size = *p1 - *p2 + sizeofFirstElement;
+             ^~~
+..\main.c:14:19: error: void value not ignored as it ought to be
+  int size = *p1 - *p2 + sizeofFirstElement;
+                   ^~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+Info: Nothing to build for Question1
+13:06:43 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:14:13: warning: dereferencing 'void *' pointer
+  int size = *p1 - *p2 + sizeofFirstElement;
+             ^~~
+..\main.c:14:19: warning: dereferencing 'void *' pointer
+  int size = *p1 - *p2 + sizeofFirstElement;
+                   ^~~
+..\main.c:14:13: error: void value not ignored as it ought to be
+  int size = *p1 - *p2 + sizeofFirstElement;
+             ^~~
+..\main.c:14:19: error: void value not ignored as it ought to be
+  int size = *p1 - *p2 + sizeofFirstElement;
+                   ^~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+13:06:44 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:14:13: warning: dereferencing 'void *' pointer
+  int size = *p1 - *p2 + sizeofFirstElement;
+             ^~~
+..\main.c:14:19: warning: dereferencing 'void *' pointer
+  int size = *p1 - *p2 + sizeofFirstElement;
+                   ^~~
+..\main.c:14:13: error: void value not ignored as it ought to be
+  int size = *p1 - *p2 + sizeofFirstElement;
+             ^~~
+..\main.c:14:19: error: void value not ignored as it ought to be
+  int size = *p1 - *p2 + sizeofFirstElement;
+                   ^~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+Info: Nothing to build for Question1
+13:07:20 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findsizeofarray':
+..\main.c:14:20: warning: dereferencing 'void *' pointer
+  int size = (void) *p1 - (void) *p2 + sizeofFirstElement;
+                    ^~~
+..\main.c:14:33: warning: dereferencing 'void *' pointer
+  int size = (void) *p1 - (void) *p2 + sizeofFirstElement;
+                                 ^~~
+..\main.c:14:20: error: void value not ignored as it ought to be
+  int size = (void) *p1 - (void) *p2 + sizeofFirstElement;
+                    ^~~
+..\main.c:14:33: error: void value not ignored as it ought to be
+  int size = (void) *p1 - (void) *p2 + sizeofFirstElement;
+                                 ^~~
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+Info: Nothing to build for Question1
+13:07:32 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Question2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+13:07:37 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+13:07:55 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+13:08:26 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+13:15:54 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+13:16:52 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question1
+13:17:25 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+13:17:44 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:27:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of first element is: 0x%d \n", p1);
+                                               ^
+..\main.c:28:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Wformat=]
+  printf ("the address of last  element is: 0x%d \n", p2);
+                                               ^
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+14:32:43 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+14:32:58 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+14:34:46 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+14:35:02 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+14:36:04 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:22:17: error: invalid initializer
+  int array [] = rand() % 20 ;
+                 ^~~~
+Info: Nothing to build for Question1
+14:36:15 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+14:36:26 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+14:36:45 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+Info: Nothing to build for Question2
+Info: Nothing to build for Question1
+14:37:42 **** Incremental Build of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Question2
+19:54:30 **** Rebuild of configuration Debug for project Question1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question1.exe main.o 
+19:54:31 **** Rebuild of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question2.exe main.o 
+19:54:32 **** Rebuild of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:15:9: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'double *' [-Wformat=]
+ scanf("%d%d", &num1, &num2);
+         ^
+..\main.c:15:11: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'double *' [-Wformat=]
+ scanf("%d%d", &num1, &num2);
+           ^
+..\main.c:16:19: error: 'n1' undeclared (first use in this function)
+ int res = findMax(n1, n2);
+                   ^~
+..\main.c:16:19: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:16:23: error: 'n2' undeclared (first use in this function)
+ int res = findMax(n1, n2);
+                       ^~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+19:55:04 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:19: error: 'n1' undeclared (first use in this function)
+ int res = findMax(n1, n2);
+                   ^~
+..\main.c:16:19: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:16:23: error: 'n2' undeclared (first use in this function)
+ int res = findMax(n1, n2);
+                       ^~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+19:55:27 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+19:56:16 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:56:17 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+19:56:22 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+19:59:55 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:05:00 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:2: warning: implicit declaration of function 'findmax' [-Wimplicit-function-declaration]
+  findmax (num1 , num2);
+  ^~~~~~~
+..\main.c: At top level:
+..\main.c:24:6: error: conflicting types for 'findMax'
+ void findMax(int n1, int n2){
+      ^~~~~~~
+..\main.c:11:5: note: previous declaration of 'findMax' was here
+ int findMax(int n1, int n2); // declaring the function
+     ^~~~~~~
+20:05:00 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:2: warning: implicit declaration of function 'findmax' [-Wimplicit-function-declaration]
+  findmax (num1 , num2);
+  ^~~~~~~
+..\main.c: At top level:
+..\main.c:24:6: error: conflicting types for 'findMax'
+ void findMax(int n1, int n2){
+      ^~~~~~~
+..\main.c:11:5: note: previous declaration of 'findMax' was here
+ int findMax(int n1, int n2); // declaring the function
+     ^~~~~~~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:05:17 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:2: warning: implicit declaration of function 'findmax' [-Wimplicit-function-declaration]
+  findmax (num1 , num2);
+  ^~~~~~~
+gcc -o test.exe main.o 
+main.o: In function `main':
+F:\Andrew\Embedded\Embedded_System_Online_Diploma\Extra_Codes\test\Debug/../main.c:19: undefined reference to `findmax'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:05:20 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe main.o 
+main.o: In function `main':
+F:\Andrew\Embedded\Embedded_System_Online_Diploma\Extra_Codes\test\Debug/../main.c:19: undefined reference to `findmax'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:05:39 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:07:22 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:26:2: error: expected identifier or '(' before '}' token
+ }}
+  ^
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:07:27 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:09:19 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:23:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d", num1 );
+           ^
+..\main.c:27:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf ("%d", num2 );
+           ^
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:09:44 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:12:05 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:14:42 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:19:51 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:26:37 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'getEvenSqrt':
+..\main.c:14:9: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+  double res = -1.00; // why res is double?
+         ^~~
+..\main.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o test.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:27:08 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'getEvenSqrt':
+..\main.c:14:9: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+  double res; // why res is double?
+         ^~~
+..\main.c:18:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:31:52 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:15:2: warning: implicit declaration of function 'test' [-Wimplicit-function-declaration]
+  test();
+  ^~~~
+..\main.c: At top level:
+..\main.c:18:6: warning: conflicting types for 'test'
+ void test ()
+      ^~~~
+..\main.c:15:2: note: previous implicit declaration of 'test' was here
+  test();
+  ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:32:26 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:13:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:17:2: warning: implicit declaration of function 'test' [-Wimplicit-function-declaration]
+  test();
+  ^~~~
+..\main.c:15:6: warning: unused variable 'x' [-Wunused-variable]
+  int x = 5 ;
+      ^
+..\main.c: At top level:
+..\main.c:20:6: warning: conflicting types for 'test'
+ void test ()
+      ^~~~
+..\main.c:17:2: note: previous implicit declaration of 'test' was here
+  test();
+  ^~~~
+..\main.c: In function 'test':
+..\main.c:22:6: warning: unused variable 'y' [-Wunused-variable]
+  int y = 6 ;
+      ^
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:33:43 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:12:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:33:57 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:12:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:34:37 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:35:39 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:17:3: error: assignment of read-only variable 'x'
+  x=6;
+   ^
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:37:44 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:13:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:49:02 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:49:41 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:02:27 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:14:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+  scanf("%f",&num);
+          ^
+..\main.c:15:13: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  printf("\n%d");
+             ^
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:02:48 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:14:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+  scanf("%f",&num);
+          ^
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:03:12 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+  scanf("%f",&num);
+          ^
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:04:23 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:14:2: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+  print("Enter num: ");
+  ^~~~~
+..\main.c:16:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+  scanf("%f",&num);
+          ^
+gcc -o test.exe main.o 
+main.o: In function `main':
+F:\Andrew\Embedded\Embedded_System_Online_Diploma\Extra_Codes\test\Debug/../main.c:14: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:17:43 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:20:07 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:22:33 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+21:22:34 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:22:39 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:23:42 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:23:56 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:24:00 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:24:14 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:24:27 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+21:34:17 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o test.exe main.o 
+Info: Nothing to build for test
+19:01:36 **** Rebuild of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:15:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%c",ch);
+          ^
+..\main.c:15:2: warning: 'ch' is used uninitialized in this function [-Wuninitialized]
+  scanf("%c",ch);
+  ^~~~~~~~~~~~~~
+gcc -o Activity1.exe main.o 
+19:01:38 **** Rebuild of configuration Debug for project Question1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question1.exe main.o 
+19:01:38 **** Rebuild of configuration Debug for project Question2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Question2.exe main.o 
+Info: Nothing to build for Activity1
+19:02:01 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity1.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:08:55 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'print_ch':
+..\main.c:14:3: error: 'print' undeclared (first use in this function)
+   print
+   ^~~~~
+..\main.c:14:3: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:15:2: error: expected ';' before '}' token
+  }
+  ^
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+19:08:56 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'print_ch':
+..\main.c:14:3: error: 'print' undeclared (first use in this function)
+   print
+   ^~~~~
+..\main.c:14:3: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:15:2: error: expected ';' before '}' token
+  }
+  ^
+19:09:02 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Activity1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+19:09:04 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -o Activity1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Activity1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:09:07 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -o Activity1.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:10:36 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity1.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+19:11:44 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:33:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int *' [-Wformat=]
+  scanf("%c", &ch);
+          ^
+gcc -o Activity1.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+19:12:06 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:33:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int *' [-Wformat=]
+  scanf("%c", &ch);
+          ^
+gcc -o Activity1.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:12:26 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Activity1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+19:12:27 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -o Activity1.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Activity1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:12:32 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -o Activity1.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+19:14:31 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity1.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+19:16:56 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity1.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+19:18:48 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity1.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+19:21:08 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'print_ch':
+..\main.c:22:11: warning: implicit declaration of function 'isnum' [-Wimplicit-function-declaration]
+  else if (isnum(ch))
+           ^~~~~
+gcc -o Activity1.exe main.o 
+main.o: In function `print_ch':
+F:\Andrew\Embedded\Embedded_System_Online_Diploma\Extra_Codes\Activity1\Debug/../main.c:22: undefined reference to `isnum'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+19:21:11 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -o Activity1.exe main.o 
+main.o: In function `print_ch':
+F:\Andrew\Embedded\Embedded_System_Online_Diploma\Extra_Codes\Activity1\Debug/../main.c:22: undefined reference to `isnum'
+collect2.exe: error: ld returned 1 exit status
+19:21:22 **** Incremental Build of configuration Debug for project Activity1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity1.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity1
+19:30:38 **** Rebuild of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:30:29: error: stray '\342' in program
+  sum += min + rand() % (max – min + 1);
+                             ^
+..\main.c:30:30: error: stray '\200' in program
+  sum += min + rand() % (max – min + 1);
+                              ^
+..\main.c:30:31: error: stray '\223' in program
+  sum += min + rand() % (max – min + 1);
+                               ^
+..\main.c:30:33: error: expected ')' before 'min'
+  sum += min + rand() % (max – min + 1);
+                                 ^~~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:34:01 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:30:29: error: stray '\342' in program
+  sum += min + rand() % (max – min + 1);
+                             ^
+..\main.c:30:30: error: stray '\200' in program
+  sum += min + rand() % (max – min + 1);
+                              ^
+..\main.c:30:31: error: stray '\223' in program
+  sum += min + rand() % (max – min + 1);
+                               ^
+..\main.c:30:33: error: expected ')' before 'min'
+  sum += min + rand() % (max – min + 1);
+                                 ^~~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:35:45 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:30:35: error: stray '\342' in program
+   int value = min + rand() % (max – min + 1);
+                                   ^
+..\main.c:30:36: error: stray '\200' in program
+   int value = min + rand() % (max – min + 1);
+                                    ^
+..\main.c:30:37: error: stray '\223' in program
+   int value = min + rand() % (max – min + 1);
+                                     ^
+..\main.c:30:39: error: expected ')' before 'min'
+   int value = min + rand() % (max – min + 1);
+                                       ^~~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:35:55 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:30:35: error: stray '\342' in program
+   int value = min + rand() % (max – min + 1);
+                                   ^
+..\main.c:30:36: error: stray '\200' in program
+   int value = min + rand() % (max – min + 1);
+                                    ^
+..\main.c:30:37: error: stray '\223' in program
+   int value = min + rand() % (max – min + 1);
+                                     ^
+..\main.c:30:39: error: expected ')' before 'min'
+   int value = min + rand() % (max – min + 1);
+                                       ^~~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:36:36 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity2.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity1
+19:37:25 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:30:35: error: stray '\342' in program
+   int value = min + rand() % (max – min + 1);
+                                   ^
+..\main.c:30:36: error: stray '\200' in program
+   int value = min + rand() % (max – min + 1);
+                                    ^
+..\main.c:30:37: error: stray '\223' in program
+   int value = min + rand() % (max – min + 1);
+                                     ^
+..\main.c:30:39: error: expected ')' before 'min'
+   int value = min + rand() % (max – min + 1);
+                                       ^~~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:37:59 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:29:35: error: stray '\342' in program
+   int value = min + rand() % (max – min + 1);
+                                   ^
+..\main.c:29:36: error: stray '\200' in program
+   int value = min + rand() % (max – min + 1);
+                                    ^
+..\main.c:29:37: error: stray '\223' in program
+   int value = min + rand() % (max – min + 1);
+                                     ^
+..\main.c:29:39: error: expected ')' before 'min'
+   int value = min + rand() % (max – min + 1);
+                                       ^~~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:38:08 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:29:35: error: stray '\342' in program
+   int value = min + rand() % (max – min + 1);
+                                   ^
+..\main.c:29:36: error: stray '\200' in program
+   int value = min + rand() % (max – min + 1);
+                                    ^
+..\main.c:29:37: error: stray '\223' in program
+   int value = min + rand() % (max – min + 1);
+                                     ^
+..\main.c:29:39: error: expected ')' before 'min'
+   int value = min + rand() % (max – min + 1);
+                                       ^~~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:38:35 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:29:36: error: stray '\342' in program
+   int value = (min + rand() % (max – min + 1));
+                                    ^
+..\main.c:29:37: error: stray '\200' in program
+   int value = (min + rand() % (max – min + 1));
+                                     ^
+..\main.c:29:38: error: stray '\223' in program
+   int value = (min + rand() % (max – min + 1));
+                                      ^
+..\main.c:29:40: error: expected ')' before 'min'
+   int value = (min + rand() % (max – min + 1));
+                                        ^~~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:38:45 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:29:36: error: stray '\342' in program
+   int value = min + (rand() % (max – min + 1));
+                                    ^
+..\main.c:29:37: error: stray '\200' in program
+   int value = min + (rand() % (max – min + 1));
+                                     ^
+..\main.c:29:38: error: stray '\223' in program
+   int value = min + (rand() % (max – min + 1));
+                                      ^
+..\main.c:29:40: error: expected ')' before 'min'
+   int value = min + (rand() % (max – min + 1));
+                                        ^~~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:39:15 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:29:34: error: stray '\342' in program
+   int value = 10 + rand( ) % (20 – 10 + 1) ;
+                                  ^
+..\main.c:29:35: error: stray '\200' in program
+   int value = 10 + rand( ) % (20 – 10 + 1) ;
+                                   ^
+..\main.c:29:36: error: stray '\223' in program
+   int value = 10 + rand( ) % (20 – 10 + 1) ;
+                                    ^
+..\main.c:29:38: error: expected ')' before numeric constant
+   int value = 10 + rand( ) % (20 – 10 + 1) ;
+                                      ^~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:40:00 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity2.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity1
+19:40:30 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity2.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity1
+19:40:51 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity2.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity1
+19:41:01 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity2.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity1
+19:41:30 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity2.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity2
+19:42:39 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity2.exe main.o 
+19:42:53 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity2.exe main.o 
+Info: Nothing to build for Activity1
+19:44:13 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity2.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity1
+19:45:36 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity2.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity1
+19:46:52 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:30:3: error: a label can only be part of a statement and a declaration is not a statement
+   int value = ((rand() % (max - min +1)) + min);
+   ^~~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:47:04 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:30:3: error: a label can only be part of a statement and a declaration is not a statement
+   int value = (rand() % (max - min +1)) + min;
+   ^~~
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+19:47:50 **** Incremental Build of configuration Debug for project Activity2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity2.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity2
+20:06:43 **** Rebuild of configuration Debug for project Activity3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity3.exe main.o 
+main.o: In function `main':
+F:\Andrew\Embedded\Embedded_System_Online_Diploma\Extra_Codes\Activity3\Debug/../main.c:21: undefined reference to `max'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity2
+20:06:48 **** Incremental Build of configuration Debug for project Activity3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity3.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity3
+Info: Nothing to build for Activity3
+Info: Nothing to build for Activity3
+Info: Nothing to build for Activity3
+Info: Nothing to build for Activity3
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity2
+20:07:50 **** Incremental Build of configuration Debug for project Activity3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity3.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity3
+Info: Nothing to build for Activity3
+Info: Nothing to build for Activity3
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity3
+20:31:53 **** Rebuild of configuration Debug for project Activity4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findPower':
+..\main.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Activity4.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity3
+20:32:06 **** Incremental Build of configuration Debug for project Activity4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findPower':
+..\main.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Activity4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Activity4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+20:32:06 **** Incremental Build of configuration Debug for project Activity4 ****
+Info: Internal Builder is used for build
+gcc -o Activity4.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Activity4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity3
+20:32:10 **** Incremental Build of configuration Debug for project Activity4 ****
+Info: Internal Builder is used for build
+gcc -o Activity4.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity3
+20:32:32 **** Incremental Build of configuration Debug for project Activity4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity4.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity4
+20:33:07 **** Incremental Build of configuration Debug for project Activity4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity4.exe main.o 
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity3
+20:33:28 **** Incremental Build of configuration Debug for project Activity4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity4.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity1
+Info: Nothing to build for Activity2
+Info: Nothing to build for Activity3
+20:35:24 **** Incremental Build of configuration Debug for project Activity4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Activity4.exe main.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity4
+Info: Nothing to build for Activity4
